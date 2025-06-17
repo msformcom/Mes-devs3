@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\StartFromScratch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\startfromscratch\\startfromscratch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|solutionrelative:startfromscratch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\startfromscratch\\startfromscratch\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|solutionrelative:startfromscratch\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\startfromscratch\\startfromscratch\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|solutionrelative:startfromscratch\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\startfromscratch\\startfromscratch\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|solutionrelative:startfromscratch\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\startfromscratch\\startfromscratch\\viewmodels\\employe\\indexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|solutionrelative:startfromscratch\\viewmodels\\employe\\indexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\startfromscratch\\startfromscratch\\viewmodels\\employe\\additionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19FD38C5-B01B-4556-8D22-AE6B4D1AF670}|StartFromScratch\\StartFromScratch.csproj|solutionrelative:startfromscratch\\viewmodels\\employe\\additionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\StartFromScratch\\StartFromScratch\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "StartFromScratch\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\StartFromScratch\\StartFromScratch\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "StartFromScratch\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T09:27:06.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\StartFromScratch\\StartFromScratch\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StartFromScratch\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\StartFromScratch\\StartFromScratch\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StartFromScratch\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T09:18:19.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\StartFromScratch\\StartFromScratch\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "StartFromScratch\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\StartFromScratch\\StartFromScratch\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "StartFromScratch\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T09:08:12.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IndexVM.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\StartFromScratch\\StartFromScratch\\ViewModels\\Employe\\IndexVM.cs",
+              "RelativeDocumentMoniker": "StartFromScratch\\ViewModels\\Employe\\IndexVM.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\StartFromScratch\\StartFromScratch\\ViewModels\\Employe\\IndexVM.cs",
+              "RelativeToolTip": "StartFromScratch\\ViewModels\\Employe\\IndexVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T14:04:07.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdditionVM.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\StartFromScratch\\StartFromScratch\\ViewModels\\Employe\\AdditionVM.cs",
+              "RelativeDocumentMoniker": "StartFromScratch\\ViewModels\\Employe\\AdditionVM.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\StartFromScratch\\StartFromScratch\\ViewModels\\Employe\\AdditionVM.cs",
+              "RelativeToolTip": "StartFromScratch\\ViewModels\\Employe\\AdditionVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T12:37:00.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\StartFromScratch\\StartFromScratch\\Program.cs",
+              "RelativeDocumentMoniker": "StartFromScratch\\Program.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\StartFromScratch\\StartFromScratch\\Program.cs",
+              "RelativeToolTip": "StartFromScratch\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:49:04.71Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
