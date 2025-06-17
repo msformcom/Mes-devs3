@@ -336,3 +336,4 @@ C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\Code tests\obj\Debug\net9.
 C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\Code tests\obj\Debug\net9.0\Code tests.pdb
 C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\Code tests\obj\Debug\net9.0\Code tests.genruntimeconfig.cache
 C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\Code tests\obj\Debug\net9.0\ref\Code tests.dll
+C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\Code tests\obj\Debug\net9.0\Code tests.sourcelink.json

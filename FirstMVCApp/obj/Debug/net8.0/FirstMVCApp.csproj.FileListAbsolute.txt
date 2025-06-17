@@ -32,3 +32,4 @@ C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\FirstMVCApp\obj\Debug\net8
 C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\FirstMVCApp\obj\Debug\net8.0\FirstMVCApp.pdb
 C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\FirstMVCApp\obj\Debug\net8.0\FirstMVCApp.genruntimeconfig.cache
 C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\FirstMVCApp\obj\Debug\net8.0\ref\FirstMVCApp.dll
+C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\FirstMVCApp\obj\Debug\net8.0\FirstMVCApp.sourcelink.json

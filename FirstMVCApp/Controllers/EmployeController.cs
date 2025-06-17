@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FirstMVCApp.Services;
+using Microsoft.AspNetCore.Mvc;
 using StartFromScratch.Models;
 using StartFromScratch.ViewModels.Employe;
 
@@ -10,26 +11,48 @@ namespace StartFromScratch.Controllers
     [Controller]
     public class EmployeController : Controller
     {
-        private readonly List<Employe> dataEmployes;
+        private readonly IEmployeService employeService;
+
 
         // Dans le constructeur je demande à l'injection de dépendance de me donner la liste des employes
-        public EmployeController([FromServices] List<Employe> dataEmployes)
+        public EmployeController([FromServices] IEmployeService employeService,
+            [FromServices] ILogger<EmployeController> logger
+            
+            )
         {
+            logger.LogWarning("Construction de EmployeController");
+            this.employeService = employeService;
             // Je la stocke localement pour utilisation dans les action
-            this.dataEmployes = dataEmployes;
+
         }
 
 
         // Créer une action qui affiche dans une page HTML 
         // 1) les employes
         // 2) le montant de charges salariales de l'entreprise
-        // GET : /Employe/index
-        public IActionResult Index()
+        // GET : /Employe/Index
+        // [FromForm] EmployeSearchModel searchModel => Je demande au binder 
+        // de constitueer un objet EmployeSearchModel à partir des éléments envoyés
+        // dans la partie Form de la requete
+        public async Task<IActionResult> Index( EmployeSearchModel searchModel)
         {
+            // ModelState donne des indications sur la validation du modèle
+            // Ici je peux agir en fonction de la validation
+            if (!ModelState.IsValid)
+            {
+
+            }
+            // InEnumerable => Resultats non matérialisés
+            var employes = await employeService.GetEmployesAsync(searchModel);
+
+            // LMatérialisation (utile si je suis sûr que la vue va énumérer)
+            var listeEmployes = employes.ToList();
             var model = new IndexVM()
             {
-                Liste = dataEmployes,
-                MasseSalariale = dataEmployes.Where(c => c.Actif).Sum(c => c.Salaire)
+                Liste = listeEmployes ,
+                MasseSalariale = listeEmployes.Where(c => c.Actif).Sum(c => c.Salaire),
+                // Cette propriété du ViewModel va permettre à la vue d'afficher les critères de recherce
+                SearchModel = searchModel
             };
 
             ViewBag.UserName = "Dominique";
@@ -43,10 +66,14 @@ namespace StartFromScratch.Controllers
         // GET : Employe/AugmenterSalaires => Augmenter les salaires de 10%
         // Réafficher les employes + masse salariale
         // return View("Index",model)
-        public IActionResult AugmenterSalaires()
+        public async Task< IActionResult> AugmenterSalaires(
+            int ancienneteMinimal,
+            [FromServices] IConfiguration config
+            )
         {
+            if (config.GetSection("Mode").Value == "Ram") { }
             // Augpenter les salaires de la liste de 10%
-            foreach(var e in dataEmployes)
+            foreach(var e in await employeService.GetEmployesAsync(new EmployeSearchModel() { Anciennete=ancienneteMinimal}))
             {
                 e.Salaire *= 1.1M;
             }
@@ -63,9 +90,9 @@ namespace StartFromScratch.Controllers
 
 
         // GET : /Employe/Details/003
-        public IActionResult Details([FromRoute(Name ="id")] string matricule)
+        public async Task<IActionResult> Details([FromRoute(Name ="id")] string matricule)
         {
-            var employe = dataEmployes.FirstOrDefault(c => c.Matricule== matricule);
+            var employe = await employeService.GetEmployeAsync(matricule);
             if (employe == null)
             {
                 // Erreur 404 => Pourra être attrapée par une page élégante par défaut

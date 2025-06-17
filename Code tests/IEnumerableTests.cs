@@ -43,4 +43,30 @@ public class IEnumerableTests
          c = petitsEntiers.Count(); // 4
         c = petitsEntiersMatérialisés.Count(); // 3 
     }
+
+
+    [TestMethod]
+    public void YieldReturn()
+    {
+        var liste = TousLesEntiersPositifs();
+        // Iterateur => demande les éléments de la liste 1 par 1
+        foreach (var e in liste.Take(1000))
+        {
+
+        }
+    }
+
+
+    // Generator => renvoit les élément 1 par 1
+    IEnumerable<int> TousLesEntiersPositifs()
+    {
+        //return new List<int>() { 1, 2, 3, 4 };
+        int i = 0;
+        while (true)
+        {
+            yield return i;
+            i++;
+
+        }
+    }
 }
