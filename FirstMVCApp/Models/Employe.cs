@@ -1,4 +1,6 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace FirstMVCApp.Models
@@ -18,7 +20,8 @@ namespace FirstMVCApp.Models
 
 
         [DisplayName("Matricule")]
-
+        [ValidateNever]
+        [BindNever]
         public string Matricule { get; set; }
 
         [DisplayName("Salaire")]

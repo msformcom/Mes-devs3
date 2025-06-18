@@ -58,6 +58,11 @@ namespace FirstMVCApp.Services
 
         }
 
+        public string NewMatricule() {
+            return (employes
+                    .Select(c => int.Parse(c.Matricule))
+                    .Max() + 1).ToString().PadLeft(3,'0');
+        }
 
         public Task<IEnumerable<Employe>> GetEmployesAsync(EmployeSearchModel search)
         {
@@ -76,6 +81,14 @@ namespace FirstMVCApp.Services
             }
             // Tant que le code appelant n'appelle pas MoveNext du Ienumerable => Aucun code écrit ici n'est exécuté
             return Task.FromResult(result);
+        }
+
+        public Task<Employe> AddEmployeAsync(Employe e)
+        {
+            e.Matricule = NewMatricule();
+            e.Nom = e.Nom.ToUpper();
+            employes.Add(e);
+            return Task.FromResult(e);
         }
     }
 

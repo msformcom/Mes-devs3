@@ -5,6 +5,9 @@ namespace FirstMVCApp.Services
 {
     public interface IEmployeService
     {
+
+        Task<Employe> AddEmployeAsync(Employe e);
+
         Task<IEnumerable<Employe>> GetEmployesAsync(EmployeSearchModel search);
         Task<Employe> GetEmployeAsync(string matricule);
 

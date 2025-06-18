@@ -4,6 +4,7 @@ using FirstMVCApp.Models;
 using FirstMVCApp.ViewModels.Employe;
 using Microsoft.DotNet.Scaffolding.Shared.CodeModifier.CodeChange;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.DataProtection.KeyManagement;
 
 namespace FirstMVCApp.Controllers
 {
@@ -156,6 +157,29 @@ namespace FirstMVCApp.Controllers
             return RedirectToAction("Index");
         }
 
+
+        [HttpGet]
+        public async Task<IActionResult> Create()
+        {
+            // Dans la réalité : ermployeService.GetNewEmploye()
+            var e = new Employe() { Actif = true, Salaire = 1000, DateEntree=DateTime.Now };
+            return View(e);
+        }
+
+
+        [HttpPost]
+        // Bind permet d'éviter la surchage du formulaire
+        // Seules les propriétés incluses dans Bind seront prises à partir de la requète
+        public async Task<IActionResult> Create(Employe e)
+        {
+
+            if (!ModelState.IsValid) {
+                return View(e);
+            }
+            // Dans la réalité : ermployeService.GetNewEmploye()
+            var employeCompleteParService = employeService.AddEmployeAsync(e);
+            return RedirectToAction("Index");
+        }
 
     }
 }

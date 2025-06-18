@@ -24,7 +24,8 @@ if ( modeFonctionnementEmployes== "RAM")
                     
                     DateEntree=DateTime.Now.AddYears(-6), Matricule="009", 
                     Salaire=100000000},
-                new Employe(){Nom="Waine", Prenom="John", Actif=false, DateEntree=DateTime.Now, Matricule="005", Salaire=1000000}
+                new Employe(){Nom="Waine", Prenom="John", Actif=false,
+                    DateEntree=DateTime.Now, Matricule="005", Salaire=1000000}
             });
 
     //Ajout d'une dépendance associée à une demande de service sur IEmployeService
