@@ -13,6 +13,19 @@ namespace FirstMVCApp.Services
             this.logger = logger;
             logger.LogWarning("Création d'un EmployeServiceFromList");
         }
+
+        public async Task<IEnumerable<Employe>> AugmenterEmployesAsync(EmployeSearchModel search,decimal taux)
+        {
+            // Pour économiser le processeur (filtrage par foreach ici en dans la vue) => ToList()
+            // Pour économiser la mémoire => Laisse en IEnumerable
+            var employes = (await GetEmployesAsync(search)).ToList();
+            // Itération de modification
+            foreach (var e in employes) {
+                e.Salaire *= taux;
+            }
+            return employes;
+        }
+
         public Task<Employe> GetEmployeAsync(string matricule)
         {
             var result= employes.FirstOrDefault(c => c.Matricule == matricule);

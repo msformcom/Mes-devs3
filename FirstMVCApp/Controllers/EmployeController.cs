@@ -67,17 +67,26 @@ namespace StartFromScratch.Controllers
         // Réafficher les employes + masse salariale
         // return View("Index",model)
         public async Task< IActionResult> AugmenterSalaires(
-            int ancienneteMinimal,
+            EmployeSearchModel searchModel,
+            decimal taux,
             [FromServices] IConfiguration config
             )
         {
             if (config.GetSection("Mode").Value == "Ram") { }
-            // Augpenter les salaires de la liste de 10%
-            foreach(var e in await employeService.GetEmployesAsync(new EmployeSearchModel() { Anciennete=ancienneteMinimal}))
+
+
+            // Augpenter les salaires grace au service
+            var employesAugmentes=await employeService.AugmenterEmployesAsync(searchModel, taux);
+
+            var model = new IndexVM()
             {
-                e.Salaire *= 1.1M;
-            }
-            return RedirectToAction("Index");
+                Liste = employesAugmentes,
+                MasseSalariale = employesAugmentes.Where(c => c.Actif).Sum(c => c.Salaire),
+                // Cette propriété du ViewModel va permettre à la vue d'afficher les critères de recherce
+                SearchModel = searchModel
+            };
+
+            return View("Index", model );
 
 
             //var model = new IndexVM()

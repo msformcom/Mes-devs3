@@ -12,8 +12,13 @@ if ( modeFonctionnementEmployes== "RAM")
 {
     builder.Services.AddSingleton<List<Employe>>((s) => new List<Employe>()
             {
-                new Employe(){Nom="Mauras", Prenom="Dominique", Actif=true, DateEntree=DateTime.Now, Matricule="007", Salaire=1000000000},
-                new Employe(){Nom="Gates", Prenom="Bill", Actif=true, DateEntree=DateTime.Now, Matricule="009", Salaire=100000000},
+                new Employe(){Nom="Mauras", Prenom="Dominique", Actif=true, 
+                    DateEntree=DateTime.Now.AddYears(-7), 
+                    Matricule="007", Salaire=1000000000},
+                new Employe(){Nom="Gates", Prenom="Bill", Actif=true, 
+                    
+                    DateEntree=DateTime.Now.AddYears(-6), Matricule="009", 
+                    Salaire=100000000},
                 new Employe(){Nom="Waine", Prenom="John", Actif=false, DateEntree=DateTime.Now, Matricule="005", Salaire=1000000}
             });
 

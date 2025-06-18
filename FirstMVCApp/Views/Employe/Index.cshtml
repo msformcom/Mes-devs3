@@ -63,6 +63,10 @@
             }
         </tbody>
     </table>
+@Html.ActionLink("Augmenter anciennete > 5", "AugmenterSalaires", new { taux = 1.05M, Anciennete=5 },
+    new { toto="H", @class="btn btn-danger"}
+)
+
 
 <!-- Cette partie de code HTML sera mise en place dans la page finale par le layout -->
 @section head{
