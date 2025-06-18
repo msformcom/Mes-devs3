@@ -1,14 +1,18 @@
 ﻿using FirstMVCApp.Services;
 using Microsoft.AspNetCore.Mvc;
-using StartFromScratch.Models;
-using StartFromScratch.ViewModels.Employe;
+using FirstMVCApp.Models;
+using FirstMVCApp.ViewModels.Employe;
+using Microsoft.DotNet.Scaffolding.Shared.CodeModifier.CodeChange;
+using Microsoft.AspNetCore.Authorization;
 
-namespace StartFromScratch.Controllers
+namespace FirstMVCApp.Controllers
 {
     // Controller destiné à géréer les fonctionnalités offertes pour les employés
     // Attribut Controller => Identifie une class comme étant un controller
     // Services.AddController le prendra en compte
     [Controller]
+    // Cet attribut check les AntiforgeryTokens de toutes les méthodes sauf GET
+    //[AutoValidateAntiforgeryToken]
     public class EmployeController : Controller
     {
         private readonly IEmployeService employeService;
@@ -36,11 +40,16 @@ namespace StartFromScratch.Controllers
         // dans la partie Form de la requete
         public async Task<IActionResult> Index( EmployeSearchModel searchModel)
         {
+            if (Request.Method == "GET")
+            {
+                ModelState.Clear();
+            }
+
             // ModelState donne des indications sur la validation du modèle
             // Ici je peux agir en fonction de la validation
             if (!ModelState.IsValid)
             {
-
+                return View(new IndexVM() { SearchModel = searchModel});              
             }
             // InEnumerable => Resultats non matérialisés
             var employes = await employeService.GetEmployesAsync(searchModel);
@@ -55,8 +64,8 @@ namespace StartFromScratch.Controllers
                 SearchModel = searchModel
             };
 
-            ViewBag.UserName = "Dominique";
-            ViewData["UserName"] = "Dominique";
+            //ViewBag.UserName = "Dominique";
+            //ViewData["UserName"] = "Dominique";
 
            
             return View(model);
@@ -85,7 +94,7 @@ namespace StartFromScratch.Controllers
                 // Cette propriété du ViewModel va permettre à la vue d'afficher les critères de recherce
                 SearchModel = searchModel
             };
-
+            return RedirectToAction("Index");
             return View("Index", model );
 
 
@@ -122,5 +131,31 @@ namespace StartFromScratch.Controllers
             // La vue utilisée est /Views/Employe/Addition.cshtml
             return View(model);
         }
+
+
+
+        // Certaines action sont réalisées en deux phase
+        // 1) Affichage d'une page de validation (sur requete GET contenant un formulaire
+        [HttpGet]
+        public async Task<IActionResult> Delete([FromRoute(Name ="id")]string matricule)
+        {
+            var employe = await employeService.GetEmployeAsync(matricule);
+            return View(employe);
+        }
+
+        // 2) Réalisation de la suppression sur retour du formulaire de la phase 1
+        [HttpPost]
+
+        // Action filter => Attribut qui va empêcher une action 
+        // de s'éxécuter sous certaines condition
+       
+        //[ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete([FromRoute(Name = "id")] string matricule,bool validation)
+        {
+            await employeService.DeleteEmployeAsync(matricule);
+            return RedirectToAction("Index");
+        }
+
+
     }
 }

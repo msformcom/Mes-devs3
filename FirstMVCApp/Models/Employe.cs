@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace StartFromScratch.Models
+namespace FirstMVCApp.Models
 {
     public class Employe
     {

@@ -1,11 +1,16 @@
 
 using FirstMVCApp.Services;
-using StartFromScratch.Models;
+using FirstMVCApp.Models;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(options =>
+{
+    // Tous les controllers auront le ActionFilter qui check le AntiforgeryToken si pas requete GET
+    options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
+});
 
 var modeFonctionnementEmployes = builder.Configuration.GetSection("Mode").Value;
 if ( modeFonctionnementEmployes== "RAM")

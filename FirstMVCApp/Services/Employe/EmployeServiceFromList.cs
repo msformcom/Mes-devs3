@@ -1,4 +1,4 @@
-﻿using StartFromScratch.Models;
+﻿using FirstMVCApp.Models;
 
 namespace FirstMVCApp.Services
 {
@@ -24,6 +24,15 @@ namespace FirstMVCApp.Services
                 e.Salaire *= taux;
             }
             return employes;
+        }
+
+        public async Task<Employe> DeleteEmployeAsync(string matricule)
+        {
+            var employe = await GetEmployeAsync(matricule);
+   
+            employes.Remove(employe);
+            return employe;
+
         }
 
         public Task<Employe> GetEmployeAsync(string matricule)
