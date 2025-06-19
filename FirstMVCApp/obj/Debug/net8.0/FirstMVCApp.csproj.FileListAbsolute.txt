@@ -230,3 +230,6 @@ C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\FirstMVCApp\bin\Debug\net8
 C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\FirstMVCApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\FirstMVCApp\obj\Debug\net8.0\FirstMVCApp.csproj.AssemblyReference.cache
 C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\FirstMVCApp\obj\Debug\net8.0\FirstMVC.83B4E8F0.Up2Date
+C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\FirstMVCApp\bin\Debug\net8.0\package-lock.json
+C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\FirstMVCApp\bin\Debug\net8.0\package.json
+C:\Users\conta\OneDrive\Bureau\Formation MVC\Mes devs\FirstMVCApp\bin\Debug\net8.0\tsconfig.json

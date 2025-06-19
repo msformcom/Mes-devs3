@@ -67,7 +67,7 @@ namespace FirstMVCApp
 
         public Task<IEnumerable<Employe>> GetEmployesAsync(EmployeSearchModel search)
         {
-            throw new EmployeServiceException();
+            //throw new EmployeServiceException();
             logger.LogWarning("Recherche d'employés");
             IEnumerable<Employe> result = employes;
             if (search.Texte != null)

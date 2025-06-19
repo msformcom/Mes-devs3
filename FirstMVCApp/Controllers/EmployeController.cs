@@ -6,6 +6,7 @@ using FirstMVCApp.CustomAttributes.AuthorizeFilters;
 using FirstMVCApp.CustomAttributes.ExceptionFilters;
 using FirstMVCApp.CustomAttributes.ActionFilters;
 
+
 namespace FirstMVCApp.Controllers
 {
     // Controller destiné à géréer les fonctionnalités offertes pour les employés
@@ -23,9 +24,9 @@ namespace FirstMVCApp.Controllers
     // [TypeFilter(typeof(EmployeServiceExceptionFilter))]
 
     // Filtres appliqués au controller (voir dossier CustomAttributes)
-    //[EmployeServiceException] //=> ExceptionFilter
-    //[HeuresBureau(9,18)] // => AuthorizationFilter
-    //[LogFilter("Avant {0} dans {1}", "Après {0} dans {1}")] // => ActionFilter
+    [EmployeServiceException] //=> ExceptionFilter
+    [HeuresBureau(9,18)] // => AuthorizationFilter
+    [LogFilter("Avant {1} dans {0}", "Après {1} dans {0}")] // => ActionFilter
     public class EmployeController : Controller
     {
         private readonly IEmployeService employeService;
@@ -53,7 +54,9 @@ namespace FirstMVCApp.Controllers
         // dans la partie Form de la requete
 
 
-        public async Task<IActionResult> Index( EmployeSearchModel searchModel)
+        // Employe/Index
+        // Employe/index?partial=true
+        public async Task<IActionResult> Index( EmployeSearchModel searchModel, bool partial=false, int? page=null)
         {
             if (Request.Method == "GET")
             {
@@ -70,7 +73,7 @@ namespace FirstMVCApp.Controllers
             var employes = await employeService.GetEmployesAsync(searchModel);
 
             // LMatérialisation (utile si je suis sûr que la vue va énumérer)
-            var listeEmployes = employes.ToList();
+            var listeEmployes = employes.Skip((page==null ? 0 : (page.Value-1)*10)).ToList();
             var model = new IndexVM()
             {
                 Liste = listeEmployes ,
@@ -82,9 +85,32 @@ namespace FirstMVCApp.Controllers
             //ViewBag.UserName = "Dominique";
             //ViewData["UserName"] = "Dominique";
 
-           
+            if (!partial)
+            {
+                // Retour normal (avec layout)
+                return View(model);
+            }
+            else
+            {
+                // Retour minimal (juste les employes) grâce à la vue partielle créée 
+                // qui ne renvoit que la liste des employé
+                // sans layout
+                return PartialView("_Index_Partial",model.Liste);
+            }
+        
+        }
+
+
+        public async Task<ActionResult> IndexDynamique(EmployeSearchModel searchModel)
+        {
+            var model = new IndexVM()
+            {
+
+                SearchModel = searchModel
+            };
             return View(model);
         }
+
 
 
         // GET : Employe/AugmenterSalaires => Augmenter les salaires de 10%
@@ -196,5 +222,20 @@ namespace FirstMVCApp.Controllers
             return RedirectToAction("Index");
         }
 
-    }
+
+        public async Task<IActionResult> ErreursClassiques(EmployeSearchModel searchModel)
+        {
+            // Le code écrit ici est le code qui fait effectivement l'action pour l'utilisateur
+
+            // Non, mieux sous forme de  Authorization Attribute / Filter
+            if(DateTime.Now.Hour<8 || DateTime.Now.Hour < 19)
+            {
+                return RedirectToAction("Home");
+            }
+            // Journalisation de l'action => Non, mieux un action Filter / Attribute
+            // Try catch => Non, mieux sous forme d'un Exception filter / Attribute
+
+            return View("toto");
+        }
+        }
 }

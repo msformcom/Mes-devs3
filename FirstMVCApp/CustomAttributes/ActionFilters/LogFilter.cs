@@ -28,6 +28,7 @@ namespace FirstMVCApp.CustomAttributes.ActionFilters
                     context.HttpContext.GetRouteValue("Controller"),
                     context.HttpContext.GetRouteValue("Action")
                     );
+            // L'exécution de cette méthode entraine l'exécution de l'action
             await next();
             this.logger.LogWarning(MessageAfter, context.HttpContext.GetRouteValue("Controller"),
                     context.HttpContext.GetRouteValue("Action"));

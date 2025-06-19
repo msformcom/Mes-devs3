@@ -15,7 +15,6 @@ builder.Services.AddControllersWithViews(options =>
     // Tous les controllers auront le ActionFilter qui check le AntiforgeryToken si pas requete GET
     options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
 
-   // options.Filters.Add(new HeuresBureauFilter(20,8,builder.Configuration) );
    // Application globale d'un filtre 
    // options.Filters.Add(new EmployeServiceExceptionFilter());
 });
@@ -36,7 +35,7 @@ if ( modeFonctionnementEmployes== "RAM")
                     DateEntree=DateTime.Now, Matricule="005", Salaire=1000000}
             });
 
-    //Ajout d'une dépendance associée à une demande de service sur IEmployeService
+    //Ajout d'une dï¿½pendance associï¿½e ï¿½ une demande de service sur IEmployeService
     // Retourne un EmployeServiceFromList en mode singleton
 
     builder.Services.AddSingleton<IEmployeService, EmployeServiceFromList>();
@@ -63,6 +62,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Employe}/{action=Index}/{id?}");
 
 app.Run();

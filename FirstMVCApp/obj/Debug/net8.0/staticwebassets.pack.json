@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\wwwroot\\js\\IndexDynamique.cshtml..script.js",
+      "PackagePath": "staticwebassets\\js\\IndexDynamique.cshtml..script.js"
+    },
+    {
+      "Id": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\wwwroot\\js\\IndexDynamique.cshtml.script.js",
+      "PackagePath": "staticwebassets\\js\\IndexDynamique.cshtml.script.js"
+    },
+    {
       "Id": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

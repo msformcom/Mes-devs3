@@ -18,8 +18,8 @@ namespace FirstMVCApp.CustomAttributes.AuthorizeFilters
 
         public HeuresBureauFilter(int h1,int h2,IConfiguration config)
         {
-            this.h1 = 10;
-            this.h2 = 16;
+            this.h1 = h1;
+            this.h2 = h2;
             this.config = config;
         }
         public void OnAuthorization(AuthorizationFilterContext context
@@ -31,9 +31,13 @@ namespace FirstMVCApp.CustomAttributes.AuthorizeFilters
                     new EmptyModelMetadataProvider(), 
                     context.ModelState
                     ) { 
+                        // Je définis le modèle pour la vue que je vais afficher
                         Model = (h1, h2) 
                 };
+                // J'ajoute des éléments dans le ViewBag si nécessaire
                 viewData["Title"] = "Erreur d'horaire";
+
+          
                 context.Result = new ViewResult() { ViewName = "/Views/Errors/HeuresBureauError.cshtml" , ViewData=viewData};
             }
         }

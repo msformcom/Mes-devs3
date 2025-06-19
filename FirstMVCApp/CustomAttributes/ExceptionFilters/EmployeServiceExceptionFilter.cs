@@ -26,7 +26,7 @@ namespace FirstMVCApp.CustomAttributes.ExceptionFilters
 
             if (context.Exception is EmployeServiceException)
             {
-                logger.LogDebug("Exception du service");
+                logger.LogWarning("Exception du service");
                 context.Result = new ViewResult() { ViewName = config.GetSection("Services:Employe:ErrorPage").Value};
             }
         }
