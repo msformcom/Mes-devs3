@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
+﻿using FirstMVCApp.CustomAttributes.ValidationAttributes;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
@@ -29,6 +30,8 @@ namespace FirstMVCApp.Models
         public decimal Salaire { get; set; }
 
         [DisplayName("Date d'entrée")]
+        // true = Le samedi est accepté
+        [JourDeSemaine(false,errorSamediPasAutorise:"Pas le dimanche pour {0}")]
         [DisplayFormat(DataFormatString ="{0:dd/MM/yyyy}")]
         
         public DateTime DateEntree { get; set; }

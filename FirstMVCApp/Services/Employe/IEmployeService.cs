@@ -1,7 +1,7 @@
 ﻿
 using FirstMVCApp.Models;
 
-namespace FirstMVCApp.Services
+namespace FirstMVCApp
 {
     public interface IEmployeService
     {

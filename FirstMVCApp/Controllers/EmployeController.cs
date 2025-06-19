@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using FirstMVCApp.Models;
 using FirstMVCApp.ViewModels.Employe;
-using Microsoft.DotNet.Scaffolding.Shared.CodeModifier.CodeChange;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.DataProtection.KeyManagement;
+using FirstMVCApp.CustomAttributes.AuthorizeFilters;
+using FirstMVCApp.CustomAttributes.ExceptionFilters;
+using FirstMVCApp.CustomAttributes.ActionFilters;
 
 namespace FirstMVCApp.Controllers
 {
@@ -12,8 +12,20 @@ namespace FirstMVCApp.Controllers
     // Attribut Controller => Identifie une class comme étant un controller
     // Services.AddController le prendra en compte
     [Controller]
+
+
     // Cet attribut check les AntiforgeryTokens de toutes les méthodes sauf GET
     //[AutoValidateAntiforgeryToken]
+
+
+
+    // TypeFilter : Appliquer un filtre sur un controller
+    // [TypeFilter(typeof(EmployeServiceExceptionFilter))]
+
+    // Filtres appliqués au controller (voir dossier CustomAttributes)
+    //[EmployeServiceException] //=> ExceptionFilter
+    //[HeuresBureau(9,18)] // => AuthorizationFilter
+    //[LogFilter("Avant {0} dans {1}", "Après {0} dans {1}")] // => ActionFilter
     public class EmployeController : Controller
     {
         private readonly IEmployeService employeService;
@@ -39,6 +51,8 @@ namespace FirstMVCApp.Controllers
         // [FromForm] EmployeSearchModel searchModel => Je demande au binder 
         // de constitueer un objet EmployeSearchModel à partir des éléments envoyés
         // dans la partie Form de la requete
+
+
         public async Task<IActionResult> Index( EmployeSearchModel searchModel)
         {
             if (Request.Method == "GET")
@@ -168,6 +182,7 @@ namespace FirstMVCApp.Controllers
 
 
         [HttpPost]
+        [TypeFilter(typeof(HeuresBureauFilter))]
         // Bind permet d'éviter la surchage du formulaire
         // Seules les propriétés incluses dans Bind seront prises à partir de la requète
         public async Task<IActionResult> Create(Employe e)

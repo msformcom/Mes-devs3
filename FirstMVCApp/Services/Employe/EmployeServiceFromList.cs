@@ -1,6 +1,7 @@
 ﻿using FirstMVCApp.Models;
+using FirstMVCApp.Services;
 
-namespace FirstMVCApp.Services
+namespace FirstMVCApp
 {
     public class EmployeServiceFromList : IEmployeService
     {
@@ -66,6 +67,7 @@ namespace FirstMVCApp.Services
 
         public Task<IEnumerable<Employe>> GetEmployesAsync(EmployeSearchModel search)
         {
+            throw new EmployeServiceException();
             logger.LogWarning("Recherche d'employés");
             IEnumerable<Employe> result = employes;
             if (search.Texte != null)

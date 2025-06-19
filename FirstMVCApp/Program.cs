@@ -2,14 +2,22 @@
 using FirstMVCApp.Services;
 using FirstMVCApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using FirstMVCApp;
+using FirstMVCApp.CustomAttributes.AuthorizeFilters;
+
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews(options =>
 {
     // Tous les controllers auront le ActionFilter qui check le AntiforgeryToken si pas requete GET
     options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
+
+   // options.Filters.Add(new HeuresBureauFilter(20,8,builder.Configuration) );
+   // Application globale d'un filtre 
+   // options.Filters.Add(new EmployeServiceExceptionFilter());
 });
 
 var modeFonctionnementEmployes = builder.Configuration.GetSection("Mode").Value;
@@ -36,11 +44,12 @@ if ( modeFonctionnementEmployes== "RAM")
 
 
 var app = builder.Build();
+//app.UseExceptionHandler("/Home/Error");
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
+
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
