@@ -3,87 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\services\\employe\\dalemployes\\employedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:services\\employe\\dalemployes\\employedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\customattributes\\exceptionfilters\\employeserviceexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:customattributes\\exceptionfilters\\employeserviceexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\services\\employe\\employeservicefromlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:services\\employe\\employeservicefromlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\services\\employe\\dalemployes\\employedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:services\\employe\\dalemployes\\employedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\models\\employe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:models\\employe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\views\\employe\\indexdynamique.cshtml.script.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:views\\employe\\indexdynamique.cshtml.script.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\controllers\\employecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:controllers\\employecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\services\\employe\\employeservicefromdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:services\\employe\\employeservicefromdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\customattributes\\validationattributes\\estdivisibleparattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:customattributes\\validationattributes\\estdivisibleparattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\views\\employe\\indexdynamique.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:views\\employe\\indexdynamique.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\services\\employe\\dalemployes\\employedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:services\\employe\\dalemployes\\employedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\views\\employe\\_search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:views\\employe\\_search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\services\\employe\\employeservicefromlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:services\\employe\\employeservicefromlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\views\\employe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:views\\employe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\views\\employe\\_index_partial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:views\\employe\\_index_partial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\customattributes\\validationattributes\\jourdesemaineattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:customattributes\\validationattributes\\jourdesemaineattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\customattributes\\actionfilters\\logfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:customattributes\\actionfilters\\logfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\customattributes\\authorizefilters\\heuresbureaufilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:customattributes\\authorizefilters\\heuresbureaufilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\customattributes\\actionfilters\\logfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:customattributes\\actionfilters\\logfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30FAA635-D000-4524-B31A-24806732FD35}|..\\Code tests\\Code tests.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\code tests\\recordtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -93,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -105,260 +42,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-19T12:41:20.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAQwFkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T12:22:44.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Employe.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Models\\Employe.cs",
-              "RelativeDocumentMoniker": "Models\\Employe.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Models\\Employe.cs",
-              "RelativeToolTip": "Models\\Employe.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T11:59:44.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmployeDAO.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\DALEmployes\\EmployeDAO.cs",
-              "RelativeDocumentMoniker": "Services\\Employe\\DALEmployes\\EmployeDAO.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\DALEmployes\\EmployeDAO.cs",
-              "RelativeToolTip": "Services\\Employe\\DALEmployes\\EmployeDAO.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T11:43:55.376Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmployeDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\DALEmployes\\EmployeDbContext.cs",
-              "RelativeDocumentMoniker": "Services\\Employe\\DALEmployes\\EmployeDbContext.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\DALEmployes\\EmployeDbContext.cs",
-              "RelativeToolTip": "Services\\Employe\\DALEmployes\\EmployeDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T11:37:14.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "EstDivisibleParAttribute.cs",
               "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\CustomAttributes\\ValidationAttributes\\EstDivisibleParAttribute.cs",
               "RelativeDocumentMoniker": "CustomAttributes\\ValidationAttributes\\EstDivisibleParAttribute.cs",
               "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\CustomAttributes\\ValidationAttributes\\EstDivisibleParAttribute.cs",
               "RelativeToolTip": "CustomAttributes\\ValidationAttributes\\EstDivisibleParAttribute.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAQwCwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwCwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T09:45:58.429Z",
+              "WhenOpened": "2025-06-19T14:22:47.337Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_Search.cshtml",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Views\\Employe\\_Search.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employe\\_Search.cshtml",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Views\\Employe\\_Search.cshtml",
-              "RelativeToolTip": "Views\\Employe\\_Search.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T09:49:06.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-06-19T09:38:03.012Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "tsconfig.json",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\tsconfig.json",
-              "RelativeDocumentMoniker": "tsconfig.json",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\tsconfig.json",
-              "RelativeToolTip": "tsconfig.json",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAD0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-19T09:21:23.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IndexDynamique.cshtml.script.ts",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Views\\Employe\\IndexDynamique.cshtml.script.ts",
-              "RelativeDocumentMoniker": "Views\\Employe\\IndexDynamique.cshtml.script.ts",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Views\\Employe\\IndexDynamique.cshtml.script.ts",
-              "RelativeToolTip": "Views\\Employe\\IndexDynamique.cshtml.script.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-19T09:09:19.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IndexDynamique.cshtml",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Views\\Employe\\IndexDynamique.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employe\\IndexDynamique.cshtml",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Views\\Employe\\IndexDynamique.cshtml",
-              "RelativeToolTip": "Views\\Employe\\IndexDynamique.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBJwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T08:09:09.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmployeController.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Controllers\\EmployeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployeController.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Controllers\\EmployeController.cs",
-              "RelativeToolTip": "Controllers\\EmployeController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAQwEsAAABSAAAAAAAAAA==",
+              "Title": "EmployeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\DALEmployes\\EmployeDbContext.cs",
+              "RelativeDocumentMoniker": "Services\\Employe\\DALEmployes\\EmployeDbContext.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\DALEmployes\\EmployeDbContext.cs",
+              "RelativeToolTip": "Services\\Employe\\DALEmployes\\EmployeDbContext.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAwD0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T08:05:19.258Z",
+              "WhenOpened": "2025-06-19T14:22:47.391Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_Index_Partial.cshtml",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Views\\Employe\\_Index_Partial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employe\\_Index_Partial.cshtml",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Views\\Employe\\_Index_Partial.cshtml",
-              "RelativeToolTip": "Views\\Employe\\_Index_Partial.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAACBjwDwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T07:58:43.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Views\\Employe\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employe\\Index.cshtml",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Views\\Employe\\Index.cshtml",
-              "RelativeToolTip": "Views\\Employe\\Index.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T07:57:35.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "JourDeSemaineAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\CustomAttributes\\ValidationAttributes\\JourDeSemaineAttribute.cs",
-              "RelativeDocumentMoniker": "CustomAttributes\\ValidationAttributes\\JourDeSemaineAttribute.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\CustomAttributes\\ValidationAttributes\\JourDeSemaineAttribute.cs",
-              "RelativeToolTip": "CustomAttributes\\ValidationAttributes\\JourDeSemaineAttribute.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAnwAsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T07:16:28.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LogFilter.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\CustomAttributes\\ActionFilters\\LogFilter.cs",
-              "RelativeDocumentMoniker": "CustomAttributes\\ActionFilters\\LogFilter.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\CustomAttributes\\ActionFilters\\LogFilter.cs",
-              "RelativeToolTip": "CustomAttributes\\ActionFilters\\LogFilter.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAswCAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T07:45:12.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LogFilterAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\CustomAttributes\\ActionFilters\\LogFilterAttribute.cs",
-              "RelativeDocumentMoniker": "CustomAttributes\\ActionFilters\\LogFilterAttribute.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\CustomAttributes\\ActionFilters\\LogFilterAttribute.cs",
-              "RelativeToolTip": "CustomAttributes\\ActionFilters\\LogFilterAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T07:31:05.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "recordTests.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\Code tests\\recordTests.cs",
-              "RelativeDocumentMoniker": "..\\Code tests\\recordTests.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\Code tests\\recordTests.cs",
-              "RelativeToolTip": "..\\Code tests\\recordTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T07:09:17.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HeuresBureauFilter.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\CustomAttributes\\AuthorizeFilters\\HeuresBureauFilter.cs",
-              "RelativeDocumentMoniker": "CustomAttributes\\AuthorizeFilters\\HeuresBureauFilter.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\CustomAttributes\\AuthorizeFilters\\HeuresBureauFilter.cs",
-              "RelativeToolTip": "CustomAttributes\\AuthorizeFilters\\HeuresBureauFilter.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAjwBwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T07:06:31.728Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EmployeServiceExceptionFilter.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\CustomAttributes\\ExceptionFilters\\EmployeServiceExceptionFilter.cs",
-              "RelativeDocumentMoniker": "CustomAttributes\\ExceptionFilters\\EmployeServiceExceptionFilter.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\CustomAttributes\\ExceptionFilters\\EmployeServiceExceptionFilter.cs",
-              "RelativeToolTip": "CustomAttributes\\ExceptionFilters\\EmployeServiceExceptionFilter.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAwB0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T07:01:14.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "EmployeServiceFromList.cs",
               "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\EmployeServiceFromList.cs",
               "RelativeDocumentMoniker": "Services\\Employe\\EmployeServiceFromList.cs",
               "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\EmployeServiceFromList.cs",
               "RelativeToolTip": "Services\\Employe\\EmployeServiceFromList.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAkwEUAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowEsAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T07:02:53.36Z"
+              "WhenOpened": "2025-06-19T14:16:14.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeServiceFromDB.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\EmployeServiceFromDB.cs",
+              "RelativeDocumentMoniker": "Services\\Employe\\EmployeServiceFromDB.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\EmployeServiceFromDB.cs",
+              "RelativeToolTip": "Services\\Employe\\EmployeServiceFromDB.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwCMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:15:35.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:09:27.632Z",
+              "EditorCaption": ""
             }
           ]
         }

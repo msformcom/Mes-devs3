@@ -72,9 +72,11 @@ namespace FirstMVCApp
             IEnumerable<Employe> result = employes;
             if (search.Texte != null)
             {
+                // Where de IEnumerable => Prendre chaque élément de la Liste / Tableau
+                //Calculer le bool => Retenir que les élément pour lesquels la condition
                 result=result.Where(c=>c.Nom.Contains(search.Texte)
                 || c.Prenom.Contains(search.Texte)
-                || c.Matricule.Contains(search.Texte)
+                || c.Matricule==search.Texte
                 );
             }
             if(search.Anciennete != null)

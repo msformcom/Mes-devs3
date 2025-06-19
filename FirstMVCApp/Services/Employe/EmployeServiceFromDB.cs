@@ -1,15 +1,19 @@
-﻿using FirstMVCApp.Models;
+﻿using AutoMapper;
+using FirstMVCApp.Models;
 using FirstMVCApp.Services.DALEmployes;
+using Microsoft.EntityFrameworkCore;
 
 namespace FirstMVCApp.Services
 {
     public class EmployeServiceFromDB : IEmployeService
     {
         private readonly EmployeDbContext context;
+        private readonly IMapper mapper;
 
-        public EmployeServiceFromDB(EmployeDbContext context)
+        public EmployeServiceFromDB(EmployeDbContext context, IMapper mapper)
         {
             this.context = context;
+            this.mapper = mapper;
         }
 
         public Task<Models.Employe> AddEmployeAsync(Models.Employe e)
@@ -34,17 +38,29 @@ namespace FirstMVCApp.Services
 
         public Task<IEnumerable<Models.Employe>> GetEmployesAsync(EmployeSearchModel search)
         {
-            var daos = context.Employes;
+            // SELECT * FROM tbl_Employes
+            IQueryable<EmployeDAO> query = context.Employes;
+            var requete = query.ToQueryString();
 
-            var pocos = context.Employes.Select(dao => new Employe()
+            if (search.Texte != null)
             {
-                Matricule = dao.Matricule,
-                Nom = dao.Nom,
-                Actif = dao.Actif,
-                DateEntree = dao.DateEntree,
-                Prenom = dao.Prenom,
-                Salaire = dao.Salaire,
-            });
+                // IQueryable => Ajoute une clause Where a query
+                // SELECT * FROM tbl_Employes WHERE ...
+                query = query.Where(c => c.Name.Contains(search.Texte)
+                || c.Prenom.Contains(search.Texte)
+                || c.Matricule.Contains(search.Texte)
+                );
+            }
+            requete = query.ToQueryString();
+            if (search.Anciennete != null)
+            {
+                // IQueryable => Ajoute une clause Where a query
+                // SELECT * FROM tbl_Employes WHERE ...
+                query = query.Where(c => c.DateEntree.Year < DateTime.Now.Year - search.Anciennete);
+            }
+            requete = query.ToQueryString();
+
+
             // Quelle est la requète envoyée
             // Aucune
 
@@ -53,7 +69,7 @@ namespace FirstMVCApp.Services
             //{
 
             //}
-            return Task.FromResult((IEnumerable<Employe>)pocos);
+            return Task.FromResult(mapper.Map<IEnumerable<Employe>>(query));
             
 
         }

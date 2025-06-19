@@ -19,7 +19,7 @@ namespace FirstMVCApp.Services.DALEmployes
         // Id de type GUID
         // Peut être généré sans connaitre les données déjà présentes dans la BDD
         public Guid Id { get; set; } = Guid.NewGuid();
-        public string Nom { get; set; }
+        public string Name { get; set; }
         public string Prenom { get; set; }
         public string Matricule { get; set; }
         public decimal Salaire { get; set; }

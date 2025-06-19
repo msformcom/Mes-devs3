@@ -9,6 +9,28 @@ using Microsoft.EntityFrameworkCore;
 
 
 var builder = WebApplication.CreateBuilder(args);
+// Système de mappage entre les différent type de classe
+// DAO <=> Model
+
+builder.Services.AddAutoMapper(config =>
+{
+    // Permet au mapper de mapper propriété par propriété de même nom
+    config.CreateMap<Employe, EmployeDAO>()
+    // Pour les propriétés qui ont des nom différents, on indique l'association
+    .ForMember(c=>c.Name,o=>
+    {
+        o.MapFrom(c => c.Nom);
+        o.NullSubstitute("");
+    })
+    
+    .ReverseMap();
+
+});
+
+
+
+
+
 
 
 // Add services to the container.
@@ -24,11 +46,11 @@ builder.Services.AddControllersWithViews(options =>
 var modeFonctionnementEmployes = builder.Configuration.GetSection("Mode").Value;
 //Ajout d'une d�pendance associ�e � une demande de service sur IEmployeService
 // Retourne un EmployeServiceFromList en mode singleton
-switch (builder.Configuration.GetSection("Mode").Value)
-{
-    case "RAM":
 
-        builder.Services.AddSingleton<List<Employe>>((s) => new List<Employe>()
+
+
+
+builder.Services.AddSingleton<List<Employe>>((s) => new List<Employe>()
             {
                 new Employe(){Nom="Mauras", Prenom="Dominique", Actif=true,
                     DateEntree=DateTime.Now.AddYears(-7),
@@ -41,6 +63,9 @@ switch (builder.Configuration.GetSection("Mode").Value)
                     DateEntree=DateTime.Now, Matricule="005", Salaire=1000000}
             });
 
+switch (builder.Configuration.GetSection("Mode").Value)
+{
+    case "RAM":
 
         builder.Services.AddSingleton<IEmployeService, EmployeServiceFromList>();
         break;
