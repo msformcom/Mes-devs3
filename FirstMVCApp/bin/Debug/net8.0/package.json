@@ -10,7 +10,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@types/google.maps": "^3.58.1",
+    "@types/googlemaps": "^3.43.3",
     "@types/jquery": "^3.5.32",
+    "@types/jquery.datatables": "^1.10.36",
     "typescript": "^5.8.3"
   }
 }

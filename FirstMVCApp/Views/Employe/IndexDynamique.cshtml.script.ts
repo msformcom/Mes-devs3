@@ -7,8 +7,8 @@
     // En cas de changement de valeur dans le formulaire
     $("#formulaireRecherche").on('input', () => {
         $("#listeEmployes").html("En attente...");
-        let texte = $("#Texte").val();
-        let anciennete = $("#Anciennete").val();
-        $("#listeEmployes").load("/Employe?partial=true&texte=" + (texte ?? "") + "&Anciennete=" + anciennete ?? "");
+        let texte = $("#Texte").val() ?? "";
+        let anciennete = $("#Anciennete").val() ?? "";
+        $("#listeEmployes").load("/Employe?partial=true&texte=" + texte + "&Anciennete=" + anciennete);
     })
 })

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "upAqu2KirASUVsi/OjF2oJ9A8bNLdnT0kGXjJz6h+SY=",
+  "Hash": "6YtmjCTQlftyejesGW3Yc2a1VCC5m/wVcqEvESaJEPU=",
   "Source": "FirstMVCApp",
   "BasePath": "_content/FirstMVCApp",
   "Mode": "Default",
@@ -99,27 +99,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\wwwroot\\js\\IndexDynamique.cshtml..script.js",
-      "SourceId": "FirstMVCApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\wwwroot\\",
-      "BasePath": "_content/FirstMVCApp",
-      "RelativePath": "js/IndexDynamique.cshtml..script#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "7x5qojp97p",
-      "Integrity": "e7T39eL3smVl+NtvSrvqRF2D8Uu3k9rqFLztMYu3xoY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\IndexDynamique.cshtml..script.js"
     },
     {
       "Identity": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\wwwroot\\js\\IndexDynamique.cshtml.script.js",
@@ -1687,88 +1666,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-JMKHeH+w7Ota2esgwWM2DAHd6OfJobD030di6BGIRe4="
-        }
-      ]
-    },
-    {
-      "Route": "js/IndexDynamique.cshtml..script.7x5qojp97p.js",
-      "AssetFile": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\wwwroot\\js\\IndexDynamique.cshtml..script.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "211"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"e7T39eL3smVl+NtvSrvqRF2D8Uu3k9rqFLztMYu3xoY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 19 Jun 2025 09:45:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7x5qojp97p"
-        },
-        {
-          "Name": "label",
-          "Value": "js/IndexDynamique.cshtml..script.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-e7T39eL3smVl+NtvSrvqRF2D8Uu3k9rqFLztMYu3xoY="
-        }
-      ]
-    },
-    {
-      "Route": "js/IndexDynamique.cshtml..script.js",
-      "AssetFile": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\wwwroot\\js\\IndexDynamique.cshtml..script.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "211"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"e7T39eL3smVl+NtvSrvqRF2D8Uu3k9rqFLztMYu3xoY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 19 Jun 2025 09:45:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-e7T39eL3smVl+NtvSrvqRF2D8Uu3k9rqFLztMYu3xoY="
         }
       ]
     },

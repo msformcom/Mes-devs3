@@ -36,18 +36,6 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wlt1uit9xs"},{"Name":"integrity","Value":"sha256-JMKHeH\u002Bw7Ota2esgwWM2DAHd6OfJobD030di6BGIRe4="},{"Name":"label","Value":"_content/FirstMVCApp/FirstMVCApp.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022JMKHeH\u002Bw7Ota2esgwWM2DAHd6OfJobD030di6BGIRe4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 09:11:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FirstMVCApp/js/IndexDynamique.cshtml..script.7x5qojp97p.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\IndexDynamique.cshtml..script.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7x5qojp97p"},{"Name":"integrity","Value":"sha256-e7T39eL3smVl\u002BNtvSrvqRF2D8Uu3k9rqFLztMYu3xoY="},{"Name":"label","Value":"_content/FirstMVCApp/js/IndexDynamique.cshtml..script.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"211"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022e7T39eL3smVl\u002BNtvSrvqRF2D8Uu3k9rqFLztMYu3xoY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 09:45:13 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FirstMVCApp/js/IndexDynamique.cshtml..script.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\IndexDynamique.cshtml..script.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-e7T39eL3smVl\u002BNtvSrvqRF2D8Uu3k9rqFLztMYu3xoY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"211"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022e7T39eL3smVl\u002BNtvSrvqRF2D8Uu3k9rqFLztMYu3xoY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 09:45:13 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FirstMVCApp/js/IndexDynamique.cshtml.script.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\IndexDynamique.cshtml.script.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
