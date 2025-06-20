@@ -12,6 +12,7 @@ namespace FirstMVCApp
         Task<Employe> GetEmployeAsync(string matricule);
 
         Task<Employe> DeleteEmployeAsync(string matricule);
+        Task<Employe> UpdateEmployeAsync(Employe e);
 
         Task<IEnumerable<Employe>> AugmenterEmployesAsync(EmployeSearchModel search,decimal taux);
     }

@@ -208,7 +208,8 @@ namespace FirstMVCApp.Controllers
 
 
         [HttpPost]
-        [TypeFilter(typeof(HeuresBureauFilter))]
+
+        [HeuresBureauAttribute(8,18)]
         // Bind permet d'éviter la surchage du formulaire
         // Seules les propriétés incluses dans Bind seront prises à partir de la requète
         public async Task<IActionResult> Create(Employe e)
@@ -218,7 +219,13 @@ namespace FirstMVCApp.Controllers
                 return View(e);
             }
             // Dans la réalité : ermployeService.GetNewEmploye()
-            var employeCompleteParService = employeService.AddEmployeAsync(e);
+            var employeCompleteParService = await employeService.AddEmployeAsync(e);
+
+
+            // Exemple de code de modif (Dans action Edit
+            employeCompleteParService.Prenom = "Toto";
+            employeCompleteParService.DateEntree = DateTime.Now.AddYears(1000);
+            var employeModifie =await  employeService.UpdateEmployeAsync(employeCompleteParService);
             return RedirectToAction("Index");
         }
 

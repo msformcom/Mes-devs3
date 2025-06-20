@@ -87,6 +87,7 @@ switch (builder.Configuration.GetSection("Mode").Value)
             // Provider : Ajouter le package du provider
             // Ajouter la chaine de connection dans la config (appsettings.json)
             options.UseSqlServer("name=EmployeConnection");
+            //options.LogTo()
         });
 
         break;

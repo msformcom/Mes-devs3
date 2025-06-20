@@ -34,6 +34,8 @@ namespace FirstMVCApp.Services.DALEmployes
                 // Clé primaire
                 options.HasKey(c => c.Id).IsClustered(false);
 
+                options.HasIndex(c => c.Matricule);
+
                 // Définir le nom de la colonne associée à Id
                 options.Property(c => c.Id).HasColumnName("PK_Employe");
 

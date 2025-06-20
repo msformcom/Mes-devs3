@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:services\\employe\\employeservicefromdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\customattributes\\validationattributes\\estdivisibleparattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:customattributes\\validationattributes\\estdivisibleparattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\services\\employe\\dalemployes\\employedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:services\\employe\\dalemployes\\employedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\controllers\\employecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:controllers\\employecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\services\\employe\\employeservicefromlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:services\\employe\\employeservicefromlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|c:\\users\\conta\\onedrive\\bureau\\formation mvc\\mes devs\\firstmvcapp\\services\\employe\\iemployeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41D3703-4DB2-4D69-30EE-7B477AA46D9E}|FirstMVCApp.csproj|solutionrelative:services\\employe\\iemployeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,41 +38,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EstDivisibleParAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\CustomAttributes\\ValidationAttributes\\EstDivisibleParAttribute.cs",
-              "RelativeDocumentMoniker": "CustomAttributes\\ValidationAttributes\\EstDivisibleParAttribute.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\CustomAttributes\\ValidationAttributes\\EstDivisibleParAttribute.cs",
-              "RelativeToolTip": "CustomAttributes\\ValidationAttributes\\EstDivisibleParAttribute.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAwCwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T14:22:47.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmployeDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\DALEmployes\\EmployeDbContext.cs",
-              "RelativeDocumentMoniker": "Services\\Employe\\DALEmployes\\EmployeDbContext.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\DALEmployes\\EmployeDbContext.cs",
-              "RelativeToolTip": "Services\\Employe\\DALEmployes\\EmployeDbContext.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAwD0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T14:22:47.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "EmployeServiceFromList.cs",
               "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\EmployeServiceFromList.cs",
               "RelativeDocumentMoniker": "Services\\Employe\\EmployeServiceFromList.cs",
               "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\EmployeServiceFromList.cs",
               "RelativeToolTip": "Services\\Employe\\EmployeServiceFromList.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowEsAAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAmwGgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T14:16:14.818Z",
+              "WhenOpened": "2025-06-20T07:51:57.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmployeService.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\IEmployeService.cs",
+              "RelativeDocumentMoniker": "Services\\Employe\\IEmployeService.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\IEmployeService.cs",
+              "RelativeToolTip": "Services\\Employe\\IEmployeService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T07:36:15.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeController.cs",
+              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Controllers\\EmployeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeController.cs",
+              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Controllers\\EmployeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeController.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAUwOEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:41:43.842Z",
               "EditorCaption": ""
             },
             {
@@ -87,22 +83,9 @@
               "RelativeDocumentMoniker": "Services\\Employe\\EmployeServiceFromDB.cs",
               "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Services\\Employe\\EmployeServiceFromDB.cs",
               "RelativeToolTip": "Services\\Employe\\EmployeServiceFromDB.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAqwCMAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAIwIgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T14:15:35.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\conta\\OneDrive\\Bureau\\Formation MVC\\Mes devs\\FirstMVCApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T14:09:27.632Z",
               "EditorCaption": ""
             }
           ]

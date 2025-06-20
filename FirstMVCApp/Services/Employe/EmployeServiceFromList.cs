@@ -94,6 +94,16 @@ namespace FirstMVCApp
             employes.Add(e);
             return Task.FromResult(e);
         }
+
+        public Task<Employe> UpdateEmployeAsync(Employe e)
+        {
+            var old=employes.FirstOrDefault(c => c.Matricule == e.Matricule);
+            employes.Remove(old);
+            e.DateEntree = old.DateEntree;
+
+            employes.Add(e);
+            return Task.FromResult(e);
+        }
     }
 
 
